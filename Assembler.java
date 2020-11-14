@@ -95,13 +95,13 @@ public class Assembler {
         A.add(0,"A");
         A.add(1,"DD");
         A.add(2,"REGISTER");
-        A.add(3,11+"");
+        A.add(3,"11");
 
         ArrayList<String> B =new ArrayList<>();
         B.add(0,"B");
         B.add(1,"DD");
         B.add(2,"REGISTER");
-        B.add(3,12+"");
+        B.add(3,"12");
 
 
 
@@ -109,14 +109,14 @@ public class Assembler {
         C.add(0,"C");
         C.add(1,"DD");
         C.add(2,"REGISTER");
-        C.add(3,13+"");
+        C.add(3,"13");
 
 
         ArrayList<String> D =new ArrayList<>();
         D.add(0,"D");
         D.add(1,"DD");
         D.add(2,"REGISTER");
-        D.add(3,14+"");
+        D.add(3,"14");
 
         symbol_table.add(A);
         symbol_table.add(B);
